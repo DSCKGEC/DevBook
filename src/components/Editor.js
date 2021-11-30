@@ -1,9 +1,27 @@
 import React, { useState } from "react";
 import "codemirror/lib/codemirror.css";
-import "codemirror/theme/material.css";
+import "codemirror/theme/material-palenight.css";
+import "codemirror/addon/hint/show-hint.css";
+
 import "codemirror/mode/xml/xml";
 import "codemirror/mode/javascript/javascript";
 import "codemirror/mode/css/css";
+
+import "codemirror/addon/hint/show-hint";
+import "codemirror/addon/hint/xml-hint";
+import "codemirror/addon/hint/css-hint";
+import "codemirror/addon/hint/javascript-hint";
+import "codemirror/addon/hint/anyword-hint";
+
+import "codemirror/addon/edit/closebrackets";
+import "codemirror/addon/edit/closetag";
+import "codemirror/addon/edit/matchbrackets";
+import "codemirror/addon/edit/matchtags";
+import "codemirror/addon/fold/foldcode";
+import "codemirror/addon/fold/foldgutter";
+import "codemirror/addon/fold/brace-fold";
+import "codemirror/addon/fold/comment-fold";
+import "codemirror/addon/fold/foldgutter.css";
 import { Controlled as ControlledEditor } from "react-codemirror2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompressAlt, faExpandAlt } from "@fortawesome/free-solid-svg-icons";
@@ -14,6 +32,14 @@ const Editor = (props) => {
 
   const handleChange = (editor, data, value) => {
     onChange(value);
+  };
+
+  const handleShowHint = (editor, data, value) => {
+    editor.showHint({
+      completeOnSingleClick: true,
+      completeSingle: false,
+      alignWithWord: false,
+    });
   };
 
   return (
@@ -36,9 +62,17 @@ const Editor = (props) => {
           lineWrapping: true,
           lint: true,
           mode: language,
-          theme: "material",
+          theme: "material-palenight",
           lineNumbers: true,
+          autoCloseBrackets: true,
+          autoCloseTags: true,
+          // showHint: true,
+          matchBrackets: true,
+          matchTags: true,
+          foldGutter: true,
+          gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
         }}
+        // onChange={handleShowHint}
       />
     </div>
   );
