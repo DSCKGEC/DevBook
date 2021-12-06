@@ -18,7 +18,7 @@ const App = () => {
           <script>${js}</script>
         </html>
       `);
-    }, 250);
+    }, 500);
 
     return () => clearTimeout(timeout);
   }, [html, css, js]);
