@@ -25,6 +25,7 @@ import "codemirror/addon/fold/foldgutter.css";
 import { Controlled as ControlledEditor } from "react-codemirror2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompressAlt, faExpandAlt } from "@fortawesome/free-solid-svg-icons";
+import "./Editor.css";
 
 const Editor = (props) => {
   const { language, displayName, value, onChange } = props;

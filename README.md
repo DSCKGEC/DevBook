@@ -1,70 +1,204 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Welcome to DevBook 👋💻</h1>
+  <h3>Live Website for DevBook : <a href="https://dev-book.vercel.app/">Open your Book!</a></h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+<p align="center">
+<a href="https://github.com/DSCKGEC"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github"></a> 
+<a href="https://github.com/DSCKGEC"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
+<a href="https://github.com/DSCKGEC"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
+<a href="https://github.com/DSCKGEC/Codeaon/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/DSCKGEC/Codeaon"></a>
+<a href="https://github.com/DSCKGEC"><img src="https://img.shields.io/maintenance/yes/2022"></a>
+</p>
 
-In the project directory, you can run:
+## Repository
 
-### `npm start`
+DevBook is a social development environment for front-end designers and developers.
+A project editor that supports HTML, CSS, and JavaScript, where you can show off your work, build test cases to learn and debug, and find inspiration .
+
+## Join Here
+
+Join us to build a real-time platform which is built drawing inspiration from CodePen like code editor but with advance features and better enhancements. There are already some extra features like parentheses adding, code folding, auto-tag complete, linting features, auto-saving your previous code in local storage in this some of which you'll not find in other similar code editors.
+We are planning to build our own code editor that will support HTML, CSS/SCSS, JavaScript/TypeScript as of now. But the bigger vision is to implement frameworks, libraries like React, Angular, Vue etc also in future.
+
+## Tech Stacks
+
+<img src="https://img.shields.io/badge/react%20-%231DA1F2.svg?&style=for-the-badge&logo=react&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+
+<br>
+
+### Node
+
+- #### Node installation on Windows
+
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+  Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+
+- #### Node installation on Ubuntu
+
+  You can install nodejs and npm easily with apt install, just run the following commands.
+
+      $ sudo apt install nodejs
+      $ sudo apt install npm
+
+- #### Other Operating Systems
+  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+
+If the installation was successful, you should be able to run the following command.
+
+    $ node --version
+    v8.11.3
+
+    $ npm --version
+    6.1.0
+
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+
+    $ npm install npm -g
+
+If you want to work on this unique project and share it with the world, you can do that here.
+Go through the contributing guidelines [here](https://github.com/DSCKGEC/Codeaon/blob/main/contributing.md).
+
+Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Templates to Follow
+
+- [Feature request](https://github.com/DSCKGEC/Codeaon/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
+- [Bug Report](https://github.com/DSCKGEC/Codeaon/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
+- [Pull Request](https://github.com/DSCKGEC/Codeaon/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+
+**Note** : One should follow these templates while creating a new issue or pull request.
+
+## Folder Structure
+
+Folder structure of this project for your reference
+
+```
+├──.github
+│
+│
+├──public
+│   ├── _redirects
+│   ├── index.html
+│
+│
+├── src
+│   ├── components
+│   │   ├── Editor
+│   │   ├── Navbar
+│   │   ├── ...
+│   ├── hooks
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── index.jsx
+│
+|
+├── code_of_conduct.md
+├── contributing.md
+├── LICENSE
+├── package.json
+├── package-lock.json
+└── .gitignore
+├── README.md
+```
+
+## Workflow:
+
+- Fork the repository
+
+- Clone your forked repository using terminal or gitbash.
+
+- Make changes to the cloned repository
+
+- Add, Commit and Push
+
+- Then in GitHub, in your cloned repository, find the option to make a pull request ( Don't forget to select DSCKGEC/DevBook as the base repository while creating new pull request as this repo has been forked from the main repo that is in my personal GitHub account ).
+
+**NOTE** : For more details <a href="https://github.com/DSCKGEC/Codeaon/blob/main/contributing.md">Click Here!</a>
+
+## Installation
+
+    $ npm install
+
+## Running the project
+
+    $ npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `npm test`
+> console.log ( " Start contributing for Codeaon " );
+> <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Open Source Programs
 
-### `npm run build`
+<table>
+<tr>
+ <td align="center">
+<a href="https://dscksoc.herokuapp.com/"><img src="https://raw.githubusercontent.com/soujo/codeaon/main/open_source/ksoc-logo.png" width=80px height=100px /><br /><sub><b>KGEC Summer Of Code</b></sub></a>
+ </td>
+</tr>
+</table>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Valuable Contributors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Special thanks goes to all of the mentees who made a choice to make an impact. Contributions of any kind are welcome!🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-### `npm run eject`
+<a href="https://github.com/DSCKGEC/DevBook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DSCKGEC/DevBook" />
+</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Code Of Conduct
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can find our Code of Conduct [here](https://github.com/DSCKGEC/Codeaon/blob/main/code_of_conduct.md).
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/DSCKGEC/Codeaon/blob/main/LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Admin
 
-### Code Splitting
+<a href="https://github.com/sudip-101">Sudip Maiti</a>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Give this Project a Star
 
-### Analyzing the Bundle Size
+If you liked working on this project, do ⭐ and share this repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
+<br>
 
-### Making a Progressive Web App
+<!-- ##  Contact Me
+If you want to contact me, you can reach me through below handles.
+<a href="mailto:hazrasoujanya@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/in/soujanyahazra/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+<a href="https://www.instagram.com/soujanya_hazra/">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
+<a href="https://discordapp.com/users/791383804354887741">
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</a> -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+© 2022 DSC_KGEC
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
